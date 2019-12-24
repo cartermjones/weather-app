@@ -1,0 +1,54 @@
+
+h1 {
+  font-family: "Shadows Into Light", sans-serif;
+  padding: 20px;
+  margin: 20px;
+  font-size: 100px;
+  color: white;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+@keyframes default {
+	from {background-color: black;}
+	to {background-color: black;}
+}
+
+@keyframes clouds {
+	from {background-color: black;}
+	to {background-color: grey;}
+}
+
+@keyframes storm {
+	from {background-color: black;}
+	to {background-color: red;}
+}
+
+body {
+  background-color: grey;
+  animation-name: default;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color: white;
+  align-content: center;
+}
+
+.button {
+  margin: 20px;
+}
+
+footer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+i {
+	color: white;
+}
